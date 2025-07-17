@@ -1,0 +1,12 @@
+1. Core Frameworks
+Technology	Purpose
+Python	Primary programming language
+Streamlit	Web app framework for building interactive UIs
+LangChain	Framework for AI-powered applications (LLM integration)
+Ollama	Local LLM runner (for deepseek-r1 models)
+2. AI & NLP Components
+Technology	Usage
+DeepSeek-R1 (1.5B/3B)	Open-source LLM for code generation & document Q&A
+LangChain-Ollama	Integration between LangChain and Ollama
+RAG (Retrieval-Augmented Generation)	Used in rag_deep.py for document-based answers
+Text Embeddings (OllamaEmbeddings)	Converts text into vectors for semantic search
